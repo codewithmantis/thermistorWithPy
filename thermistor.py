@@ -6,7 +6,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 # Set up the serial port to read from Arduino
-ser = serial.Serial("COM3", 9600)
+ser = serial.Serial("COM3", 9600) #make sure to chnage to your devices COM
 
 # Initialize lists to store time and temperature data
 times = []
